@@ -13,6 +13,25 @@ import Csharp from './../skillicons/C.png';
 import django from './../skillicons/django.png';
 
 export default function About() {
+    const blurb = [
+        {index: 1, description: 'Rising junior studying computer science at the University of Notre Dame'},
+        {index: 2, description: 'Interested in mobile development, game development, databases, and networking'},
+        {index: 3, description: 'Currently working at iCapital, a fintech company based in NYC, as a platform engineering intern'},
+        {index: 4, description: 'Catan and LA Clippers enthusiast'},
+        {index: 5, description: 'Enjoys playing ping pong, eating Vietnamese food, and exercising in free time'},
+    ]
+    const skills1 = [
+        {name: 'React', img_src: react},
+        {name: 'Python', img_src: python},
+        {name: 'html', img_src: html},
+        {name: 'css', img_src: css},
+    ];
+    const skills2 = [
+        {name: 'JavaScript', img_src: javascript},
+        {name: 'Swift', img_src: swift},
+        {name: 'C#', img_src: Csharp},
+        {name: 'Django', img_src: django},
+    ]
     return (<div className="about">
         <h1 className="title"> A little bit about me... </h1>
         <div className="boxes">
@@ -28,25 +47,14 @@ export default function About() {
                 </div>
             </div>
             <div className="blurb">
-                <h3>1) Rising junior studying computer science at the University of Notre Dame</h3>
-                <h3>2) Interested in mobile development, game development, databases, and networking</h3>
-                <h3>3) Currently working at iCapital, a fintech company based in NYC, as a platform engineering intern</h3>
-                <h3>4) Catan and LA Clippers enthusiast</h3>
-                <h3>5) Enjoys playing ping pong, eating Vietnamese food, and exercising in free time</h3>
-
+                {blurb.map((item) => (<h3>{item.index}) {item.description}</h3>))}
                 <div className="Skills">
                     <h2>Skilled in:</h2>
                     <div className="items">
-                        <div className="React"><img src={react} alt="wow" width="75px" height="75px"/><figcaption className='figs'>React</figcaption></div>
-                        <div className="Python"><img src={python} alt="wow" width="75px" height="75px"/><figcaption className='figs'>Python</figcaption></div>
-                        <div className="HTML"><img src={html} alt="wow" width="75px" height="75px"/><figcaption className='figs'>HTML5</figcaption></div>
-                        <div className="CSS"><img src={css} alt="wow" width="75px" height="75px"/><figcaption className='figs'>CSS3</figcaption></div>
+                        {skills1.map((skill) => (<div className={skill.name}><img src={skill.img_src} alt="wow" width="75px" height="75px"/><figcaption className="figs">{skill.name}</figcaption></div>))}
                     </div>
                     <div className="items">
-                        <div className="JS"><img src={javascript} alt="wow" width="75px" height="75px"/><figcaption className='figs'>JavaScript</figcaption></div>
-                        <div className="swift"><img src={swift} alt="wow" width="75px" height="75px"/><figcaption className='figs'>Swift</figcaption></div>
-                        <div className="C#"><img src={Csharp} alt="wow" width="75px" height="75px"/><figcaption className='figs'>C#</figcaption></div>
-                        <div className="django"><img src={django} alt="wow" width="75px" height="75px"/><figcaption className='figs'>Django</figcaption></div>
+                        {skills2.map((skill) => (<div className={skill.name}><img src={skill.img_src} alt="wow" width="75px" height="75px"/><figcaption className="figs">{skill.name}</figcaption></div>))}
                     </div>
                 </div>
             </div>
