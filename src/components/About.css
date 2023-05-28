@@ -1,0 +1,134 @@
+.about {
+    height: 160vh;
+    width: 100%;
+    background-color: #EEE2DC;
+}
+
+.title {
+    padding-top: 50px;
+    text-align: center;
+    font-size: 250%;
+}
+
+
+.items {
+    margin-top: 5vh;
+    display: flex;
+    justify-content: space-between;
+}
+.items img {
+    background-color: white;
+    border-radius: 50%;
+    border: 10px solid white;
+}
+
+.figs {
+    margin-top: 10px;
+    font-size: 50%;
+    text-align: center;
+}
+
+.boxes {
+    margin-top: 15vh;
+    display: grid;
+    padding: 0px 100px 15% 100px;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 50px;
+}
+
+
+.collage {
+    display: grid;
+    margin: auto;
+}
+
+.images:first-of-type {
+    grid-column: 4 / span 4;
+    grid-row: 1 / span 4;
+}
+.images:nth-of-type(2) {
+    grid-column: 6 / span 8;
+    grid-row: 4 / span 8;
+}
+.images:last-of-type {
+    grid-column: 1 / span 4;
+    grid-row: 3 / span 4;
+}
+
+.blurb {
+    line-height: 250%;
+    font-size: 90%;
+}
+
+.Skills {
+    margin-top: 5vh;
+    font-size: 2.5em;
+}
+
+@media (max-width: 1071px) {
+    .about {
+        height: 160vh;
+    }
+    .boxes {
+        margin-top: 25px;
+        padding: 25px 100px;
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-gap: 20px;
+    }
+    .img1 {
+        width: 150px;
+        height: 200px;
+    }
+    .img2 {
+        width: 200px;
+        height: 150px;
+    }
+    .img3 {
+        width: 250px;
+        height: 150px;
+    }
+    .Skills {
+        top: 5vh;
+        font-size: 2em;
+    }
+    .blurb {
+        font-size: 90%;
+    }
+    .figs {
+        font-size: .7em;
+        text-align: center;
+    }
+}
+
+@media (max-width: 500px) {
+    .Skills {
+        margin-bottom: 25px;
+    }
+    .title {
+        font-size: 1.5rem;
+    }
+    .collage {
+        width: 300px;
+    }
+    .img1 {
+        width: 75px;
+        height: 100px;
+    }
+    .img2 {
+        width: 100px;
+        height: 75px;
+    }
+    .img3 {
+        width: 125px;
+        height: 75px;
+    }
+    .figs {
+        font-size: .5em;
+        text-align: center;
+    }
+    .items img {
+        width: 60px;
+        height: 60px;
+    }
+}
