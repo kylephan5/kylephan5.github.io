@@ -1,0 +1,108 @@
+* {
+    color: #123C69;
+    box-sizing: border-box;
+}
+
+.home {
+    margin-top: 100px;
+    margin-bottom: 100px;
+    display: grid;
+    padding: 0px 100px;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 20px;
+}
+.left-side {
+    padding-top: 100px;
+}
+
+.Animator3 {
+    opacity: 0;
+    animation: fadeIn 1s 2s linear forwards;
+}
+
+@keyframes fadeIn {
+    to {opacity: 1;}
+}
+
+.image {
+    margin: auto;
+    display: block;
+}
+h2 {
+    font-family: 'Maven Pro', sans-serif;
+    font-size: 125%;
+}
+
+.Currently {
+    font-size: 125%;
+}
+
+.Button {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+.Resume {
+    height: 100%;
+    padding: 20px;
+    border: 5px solid white;
+    border-radius: 20px;
+}
+
+.emoticons {
+    margin-top: 25px;
+}
+.github {
+    margin-right: 12px;
+}
+
+.linkedin {
+    margin-left: 12px;
+}
+
+.Animator0{
+    border-right: 2px solid rgba(255,255,255,.75);
+    font-size: 3em;
+    white-space: nowrap;
+    overflow: hidden;
+  }
+  
+  
+/* Animation             fadeOut 1s 3s linear forwards,*/
+.anim-typewriter{
+animation: typewriter 2s steps(24) 1s 1 normal both,
+            blinkTextCursor 500ms steps(24) infinite normal;
+}
+
+@keyframes typewriter{
+from{width: 0em;}
+to{width: 7em;}
+}
+@keyframes blinkTextCursor{
+from{border-right-color: rgba(255,255,255,.75);}
+to{border-right-color: transparent;}
+}
+
+@media screen and (max-width: 1071px) {
+    .home {
+        padding: 25px 100px;
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-gap: 20px;
+    }
+    .left-side {
+        padding-top: 0px;
+    }
+}
+
+@media (max-width: 500px) {
+    .image {
+        width: 300px;
+        height: 400px;
+    }
+    .Animator0 {
+        font-size:2.5rem;
+    }
+}
