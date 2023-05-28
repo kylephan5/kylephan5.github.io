@@ -5,6 +5,7 @@
 /.pnp
 .pnp.js
 React*App_files/
+/React*App.html
 
 # testing
 /coverage
