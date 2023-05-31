@@ -1,6 +1,7 @@
 import Navbar from "./components/Navbar";
 import Home from "./components/Home";
 import About from "./components/About";
+import Experience from "./components/Experience";
 import './App.css';
 import {BrowserRouter as Router, Routes, Route} from 'react-router-dom';
 import React, {useState} from 'react';
@@ -14,7 +15,7 @@ function App() {
   }
   var d = new Date();
   window.onload = ()=>WhatAmIDoing(Math.ceil(d.getHours()/4));
-  
+
   return (
     <>
       <Router>
@@ -22,6 +23,7 @@ function App() {
         <Routes>  
           <Route path='/' element={<Home currently={currently}/>} />
           <Route path='/about' element={<About/>} />
+          <Route path='/experience' element={<Experience/>} />
         </Routes>
       </Router>
     </>
