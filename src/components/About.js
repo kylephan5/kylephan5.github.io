@@ -22,9 +22,9 @@ export default function About() {
     ]
     const skills1 = [
         {name: 'React', img_src: react},
-        {name: 'Python', img_src: python},
-        {name: 'html', img_src: html},
-        {name: 'css', img_src: css},
+        {name: 'Python', img_src: python}, //fix python image
+        {name: 'HTML5', img_src: html},
+        {name: 'CSS3', img_src: css},
     ];
     const skills2 = [
         {name: 'JavaScript', img_src: javascript},
@@ -33,7 +33,7 @@ export default function About() {
         {name: 'Django', img_src: django},
     ]
     return (<div className="about">
-        <h1 className="title"> A little bit about me... </h1>
+        <h1 className="abouttitle"> A little bit about me... </h1>
         <div className="boxes">
             <div className="collage">
                 <div className="images">

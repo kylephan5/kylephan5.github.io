@@ -1,10 +1,9 @@
 .about {
     height: 160vh;
     width: 100%;
-    background-color: #EEE2DC;
 }
 
-.title {
+.abouttitle {
     padding-top: 50px;
     text-align: center;
     font-size: 250%;
@@ -31,7 +30,7 @@
 .boxes {
     margin-top: 15vh;
     display: grid;
-    padding: 0px 100px 15% 100px;
+    padding: 0px 36px 15% 100px;
     grid-template-columns: 1fr 1fr;
     grid-gap: 50px;
 }
@@ -105,7 +104,7 @@
     .Skills {
         margin-bottom: 25px;
     }
-    .title {
+    .abouttitle {
         font-size: 1.5rem;
     }
     .collage {
