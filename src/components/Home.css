@@ -4,10 +4,11 @@
 }
 
 .home {
+    background-color: white;
     margin-top: 100px;
     margin-bottom: 100px;
     display: grid;
-    padding: 0px 100px;
+    padding: 0px 36px 0px 100px;
     grid-template-columns: 1fr 1fr;
     grid-gap: 20px;
 }
@@ -24,7 +25,7 @@
     to {opacity: 1;}
 }
 
-.image {
+.homeimage {
     margin: auto;
     display: block;
 }
@@ -47,7 +48,7 @@ h2 {
 .Resume {
     height: 100%;
     padding: 20px;
-    border: 5px solid white;
+    border: 5px solid #123C69;
     border-radius: 20px;
 }
 
@@ -63,7 +64,7 @@ h2 {
 }
 
 .Animator0{
-    border-right: 2px solid rgba(255,255,255,.75);
+    border-right: 2px solid rgba(37, 34, 34, 0.75);
     font-size: 3em;
     white-space: nowrap;
     overflow: hidden;
@@ -73,7 +74,7 @@ h2 {
 /* Animation             fadeOut 1s 3s linear forwards,*/
 .anim-typewriter{
 animation: typewriter 2s steps(24) 1s 1 normal both,
-            blinkTextCursor 500ms steps(24) infinite normal;
+            blinkTextCursor 500ms steps(24) 100 normal;
 }
 
 @keyframes typewriter{
@@ -81,7 +82,7 @@ from{width: 0em;}
 to{width: 7em;}
 }
 @keyframes blinkTextCursor{
-from{border-right-color: rgba(255,255,255,.75);}
+from{border-right-color: rgba(37,34,34,.75);}
 to{border-right-color: transparent;}
 }
 
@@ -98,9 +99,9 @@ to{border-right-color: transparent;}
 }
 
 @media (max-width: 500px) {
-    .image {
+    .homeimage {
         width: 300px;
-        height: 400px;
+        height: 350px;
     }
     .Animator0 {
         font-size:2.5rem;

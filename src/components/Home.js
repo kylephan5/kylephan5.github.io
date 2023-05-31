@@ -20,7 +20,7 @@ export default function Home( {currently} ) {
             </div>
         </div>
         <div className='right-side'>
-            <img className="image" src={picofme} alt='pic of me' width='500px' height='650px'/>
+            <img className="homeimage" src={picofme} alt='pic of me' width='500px' height='650px'/>
         </div>
     </div>);
 }
