@@ -1,0 +1,58 @@
+.experience {
+    margin-left: 64px;
+    background-color: white;
+}
+
+.title {
+    padding-top: 50px;
+    text-align: center;
+    font-size: 250%;
+}
+
+.yobs {
+    margin: 15vh auto 0px auto;
+}
+.yobs .individual {
+    display: grid;
+    padding: 0px 100px 15% 100px;
+    grid-template-columns: .4fr 1fr;
+}
+
+.entries img {
+    margin: auto;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+
+.iCapital {
+    width: 300px;
+    border-radius: 0%;
+}
+
+
+/*
+.entries img, figcaption {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+*/
+
+.co {
+    text-align: left;
+    font-size: 150%;
+}
+
+@media screen and (max-width: 500px) {
+    .yobs .individual {
+        grid-template-columns: 1fr;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .timeline {
+        width: 0px;
+        height: 0px;
+    }
+}
