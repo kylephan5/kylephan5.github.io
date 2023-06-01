@@ -1,0 +1,138 @@
+.projects {
+    margin-left: 64px;
+    
+}
+.project h3 {
+    text-align: center;
+    font-size: 125%;
+    color: #003e29;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.project img {
+    margin: 0 auto;
+    display: block;
+}
+.projectdescription {
+    margin: 0 10px;
+}
+
+.project h4 {
+    margin: 5px 10px;
+}
+
+.project form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.project button {
+    background-color: #003e29;
+    border-radius: 10%;
+    padding: 10px 20px;
+    border: none;
+    margin-bottom: 10px;
+    color: white;
+}
+
+.project button:hover {
+    cursor: pointer;
+    animation: buttonhover 250ms linear forwards;
+}
+
+@keyframes buttonhover {
+    from {opacity: 1;}
+    to {opacity:0.7;}
+}
+.project img:hover {
+    opacity: 1;
+    animation: hoverover 500ms linear forwards;
+}
+
+.access {
+    text-align: center;
+    font-size: 75%;
+    color:#003e29;
+}
+
+@keyframes hoverover {
+    from {opacity: 1;}
+    to {opacity: 0.6;
+        filter: brightness(70%);}
+}
+.projecttitle {
+    padding-top: 50px;
+    text-align: center;
+    font-size: 250%;
+    margin-bottom: 30px;
+    color: rgb(222, 240, 113);
+}
+
+.individualprojects {
+    margin: 10vh 30px 20px 30px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 30px;
+}
+
+.project {
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+}
+
+.project p {
+    height: 7em;
+}
+
+@media screen and (max-width: 1550px) {
+    .project p {
+        height: 8em;
+    }
+}
+
+@media screen and (max-width: 1350px) {
+    .individualprojects {
+        grid-template-columns: 1fr 1fr;
+    }
+    .project img {
+        width: 300px;
+        height: 150px;
+    }
+    .project p {
+        height: 6.5em;
+    }
+}
+
+@media screen and (max-width: 1050px) {
+    .project p {
+        height: 8em;
+    }
+}
+@media screen and (max-width: 900px) {
+    .project p {
+        height: 10em;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .individualprojects {
+        grid-template-columns: 1fr;
+    }
+    .project p {
+        height: 7.5em;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .project img {
+        width: 200px;
+        height: 125px;
+    }
+    .project p {
+        height: 11.5em;
+    }
+    .projecttitle {
+        font-size: 200%;
+    }
+}
