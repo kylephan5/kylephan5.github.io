@@ -2,12 +2,13 @@ import Navbar from "./components/Navbar";
 import Home from "./components/Home";
 import About from "./components/About";
 import Experience from "./components/Experience";
+import Projects from "./components/Projects";
 import './App.css';
 import {BrowserRouter as Router, Routes, Route} from 'react-router-dom';
 import React, {useState} from 'react';
 
 function App() {
-  const [currently, setCurrently] = useState();
+  const [currently, setCurrently] = useState("playing ping pong 🏓");
     
   function WhatAmIDoing(i) {
       let tasks = ["resting for a good day tomorrow 🤓", "playing Catan 🎲", "stuffing my face with food 🍲", "watching the Clippers 🏀", "learning Swift 📱", "in NYC!!! 🏙️", "resting for a good day tomorrow 🤓"];
@@ -24,6 +25,7 @@ function App() {
           <Route path='/' element={<Home currently={currently}/>} />
           <Route path='/about' element={<About/>} />
           <Route path='/experience' element={<Experience/>} />
+          <Route path='/projects' element={<Projects/>} />
         </Routes>
       </Router>
     </>
