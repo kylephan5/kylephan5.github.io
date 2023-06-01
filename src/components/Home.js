@@ -11,11 +11,11 @@ export default function Home( {currently} ) {
             <h2 className="Animator2"> I'm a computer science major at the University of Notre Dame.</h2>
             <h3 className="Currently">Currently, I'm {currently}</h3>
             <div class="emoticons">
-                <a href="https://github.com/kylephan5" target="_blank" rel="noreferrer"><i class="fa-brands fa-github fa-2xl github" title="Github"></i></a>
-                <a href="https://www.linkedin.com/in/kyle-phan-17a452203/" target="_blank" rel="noreferrer"><i class="fa-brands fa-linkedin fa-2xl linkedin" title="Linkedin"></i></a>
+                <a href="https://github.com/kylephan5" target="_blank" rel="noreferrer"><i class="fa-brands fa-github fa-2xl github" style={{color: "rgb(222, 240, 113)"}} title="Github"></i></a>
+                <a href="https://www.linkedin.com/in/kyle-phan-17a452203/" target="_blank" rel="noreferrer"><i class="fa-brands fa-linkedin fa-2xl linkedin" style={{color: "rgb(222, 240, 113)"}} title="Linkedin"></i></a>
             </div>
             <div className="Button">
-                <a className="Resume" href="./../Kyle Phan Resume 2023.pdf" target="_blank" download>Download Resume <i class ="fa fa-light fa-download"></i></a>
+                <a className="Resume" href="./../Kyle Phan Resume 2023.pdf" target="_blank"style={{color: "rgb(222, 240, 113)"}} download>Download Resume <i class ="fa fa-light fa-download" style={{color: "rgb(222, 240, 113)"}}></i></a>
             </div>
             </div>
         </div>
