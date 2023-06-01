@@ -1,22 +1,22 @@
+
 .experience {
     margin-left: 64px;
-    background-color: white;
+    background-color: #003e29;
+    color: #C99700;
+}
+
+.experience figcaption, p {
+    color: black;
 }
 
 .title {
     padding-top: 50px;
     text-align: center;
     font-size: 250%;
+    margin-bottom: 30px;
+    color: rgb(222, 240, 113);
 }
 
-.yobs {
-    margin: 15vh auto 0px auto;
-}
-.yobs .individual {
-    display: grid;
-    padding: 0px 100px 15% 100px;
-    grid-template-columns: .4fr 1fr;
-}
 
 .entries img {
     margin: auto;
@@ -25,9 +25,22 @@
     border-radius: 50%;
 }
 
-.iCapital {
+.entries .icapital {
     width: 300px;
+    height: 125px;
     border-radius: 0%;
+}
+.tag .vertical-timeline-element-content{
+    border-top: 5px solid #C99700 !important;
+}
+.entries .bigdata {
+    width: 250px;
+    height: 125px;
+    border-radius: 0%;
+}
+
+.entries .tag {
+    border-top: 3px solid black;
 }
 
 

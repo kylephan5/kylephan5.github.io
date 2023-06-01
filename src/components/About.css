@@ -1,14 +1,30 @@
 .about {
     height: 160vh;
     width: 100%;
+    background-color: #fff8e7;
 }
 
 .abouttitle {
     padding-top: 50px;
     text-align: center;
     font-size: 250%;
+    color: #003e29;
+}
+.about h3, h2 {
+    color: #003e29;
+    opacity: 0;
+    animation: fadein 2s ease-in forwards;
 }
 
+.images img {
+    opacity: 0;
+    animation: fadein 1s linear forwards;
+}
+
+@keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
 
 .items {
     margin-top: 5vh;
@@ -19,12 +35,14 @@
     background-color: white;
     border-radius: 50%;
     border: 10px solid white;
+    animation: fadein 2s ease-in forwards;
 }
 
 .figs {
     margin-top: 10px;
     font-size: 50%;
     text-align: center;
+    color: #003e29;
 }
 
 .boxes {
@@ -131,3 +149,4 @@
         height: 60px;
     }
 }
+
