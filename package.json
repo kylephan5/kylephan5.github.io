@@ -1,7 +1,7 @@
 {
   "name": "personalwebsite",
   "version": "0.1.0",
-  "homepage": "https://kylephan5.github.io/",
+  "homepage": "https://kylephan5.github.io/personalwebsite",
   "private": true,
   "dependencies": {
     "@emailjs/browser": "^3.11.0",
