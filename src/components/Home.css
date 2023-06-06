@@ -119,4 +119,8 @@ to{border-right-color: transparent;}
     .Animator0 {
         font-size: 1.9rem;
     }
+    @keyframes typewriter{
+        from{width: 0em;}
+        to{width: 7.5em;}
+        }
 }
