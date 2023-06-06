@@ -142,3 +142,15 @@
         font-size: 200%;
     }
 }
+@media screen and (max-width: 370px) {
+    .project img {
+        width: 200px;
+        height: 125px;
+    }
+    .project p {
+        height: 13.5em;
+    }
+    .projecttitle {
+        font-size: 200%;
+    }
+}
