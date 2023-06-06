@@ -6,6 +6,7 @@
 .pnp.js
 React*App_files/
 /React*App.html
+/src/components/email.js
 
 # testing
 /coverage
