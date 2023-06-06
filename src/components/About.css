@@ -10,7 +10,12 @@
     font-size: 250%;
     color: #003e29;
 }
-.about h3, h2 {
+.about h3 {
+    color: #003e29;
+    opacity: 0;
+    animation: fadein 2s ease-in forwards;
+}
+.about h2 {
     color: #003e29;
     opacity: 0;
     animation: fadein 2s ease-in forwards;
