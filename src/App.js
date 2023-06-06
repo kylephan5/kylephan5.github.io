@@ -20,7 +20,7 @@ function App() {
 
   return (
     <>
-      <Router basename="/kylephan5.github.io">
+      <Router>
         <Navbar/>
         <Routes>  
           <Route path='/' element={<Home currently={currently}/>} />
