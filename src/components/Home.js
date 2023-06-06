@@ -6,7 +6,7 @@ export default function Home( {currently} ) {
 
     return (<div className="home">
         <div className='left-side'>
-            <h1 className='Animator0 anim-typewriter'>Hi! I'm Kyle 👋</h1>
+            <h1 className='Animator0 anim-typewriter'>Hi! I'm Kyle👋</h1>
             <div className='Animator3'>
             <h2 className="Animator2"> I'm a computer science major at the University of Notre Dame.</h2>
             <h3 className="Currently">Currently, I'm {currently}</h3>

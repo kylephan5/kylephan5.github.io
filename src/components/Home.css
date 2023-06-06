@@ -81,7 +81,7 @@ animation: typewriter 2s steps(24) 1s 1 normal both,
 
 @keyframes typewriter{
 from{width: 0em;}
-to{width: 7em;}
+to{width: 6.5em;}
 }
 @keyframes blinkTextCursor{
 from{border-right-color: rgba(255,255,255,.75);}
