@@ -12,6 +12,12 @@
 .project img {
     margin: 0 auto;
     display: block;
+    animation: fadeIn 1s linear forwards;
+}
+
+@keyframes fadeIn {
+    from {opacity: 0;}
+    to {opacity:1;}
 }
 .projectdescription {
     margin: 0 10px;

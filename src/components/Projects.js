@@ -1,5 +1,4 @@
 import React from 'react';
-import me from './../images/_DSC0474.JPG';
 import workoutguru from './../images/workoutguru.png';
 import egyptianwar from './../images/egyptianwar.png';
 import battleforla from './../images/battleforla.png';
