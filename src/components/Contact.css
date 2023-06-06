@@ -1,0 +1,56 @@
+.Contact {
+    margin-left: 64px;
+}
+
+.Contact label {
+    color: black;
+    font-size: 150%;
+}
+
+.Form {
+    margin: 25vh 35%;
+    background-color: white;
+    border-radius: 20px;
+    padding: 20px;
+}
+
+.Form h1 {
+    text-align: center;
+    margin: 20px auto;
+}
+
+.form-group {
+    display: flex;
+    align-items: flex;
+    justify-content: center;
+}
+.Form input, textarea {
+    width: 75%;
+    margin-top: 10px;
+    padding: 10px;
+    border: 1px solid grey;
+}
+
+.Form input {
+    height: 30px;
+}
+
+.Form textarea {
+    height: 100px;
+}
+.Form button {
+    margin: 30px 0px;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    background-color: #003e29;
+    color: white;
+    margin-left: 12.5%;
+}
+
+@media screen and (max-width: 1200px) {
+    .Form {
+        margin-left: 12%;
+        margin-right: 12%;
+    }
+}
