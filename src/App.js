@@ -20,14 +20,14 @@ function App() {
 
   return (
     <>
-      <Router>
+      <Router basename="/kylephan5.github.io">
         <Navbar/>
         <Routes>  
           <Route path='/' element={<Home currently={currently}/>} />
-          <Route path='#/about' element={<About/>} />
-          <Route path='#/experience' element={<Experience/>} />
-          <Route path='#/projects' element={<Projects/>} />
-          <Route path='#/contactme' element={<Contact/>} />
+          <Route path='/about' element={<About/>} />
+          <Route path='/experience' element={<Experience/>} />
+          <Route path='/projects' element={<Projects/>} />
+          <Route path='/contactme' element={<Contact/>} />
         </Routes>
       </Router>
     </>
