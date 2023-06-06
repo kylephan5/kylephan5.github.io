@@ -7,7 +7,7 @@ import "@trendmicro/react-sidenav/dist/react-sidenav.css"
 export default function Navbar() {
     const navigate = useNavigate();
     return <SideNav className="navbar" onSelect={selected => {console.log(selected);
-    navigate('/'+selected)}}>
+    navigate('#/'+selected)}}>
         <SideNav.Toggle />
         <SideNav.Nav defaultSelected="/">
             <NavItem eventKey= "">
