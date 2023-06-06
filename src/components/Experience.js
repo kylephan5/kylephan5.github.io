@@ -1,6 +1,6 @@
 import React from 'react';
 import './Experience.css';
-import me from './../images/_DSC0474.JPG';
+import me from './../images/domepic.png';
 import colonist from './../images/colonist.png';
 import bigdata from './../images/bigdata.png';
 import icapital from './../images/icapital.webp';

@@ -1,6 +1,6 @@
 import React from 'react';
 import './About.css';
-import me from './../images/_DSC0474.JPG';
+import me from './../images/domepic.png';
 import jacobeugene from './../images/DSC00615.JPG';
 import vsa from './../images/vsa.jpeg';
 import python from './../skillicons/python.png';
