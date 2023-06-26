@@ -1,5 +1,6 @@
 import React from 'react';
 import picofme from './../images/picofme.jpg';
+import pdf from './../KylePhanResume.pdf';
 import './Home.css';
 
 export default function Home( {currently} ) {
@@ -15,7 +16,7 @@ export default function Home( {currently} ) {
                 <a href="https://www.linkedin.com/in/kyle-phan-17a452203/" target="_blank" rel="noreferrer"><i class="fa-brands fa-linkedin fa-2xl linkedin" style={{color: "rgb(222, 240, 113)"}} title="Linkedin"></i></a>
             </div>
             <div className="Button">
-                <a className="Resume" href="./../Kyle Phan Resume 2023.pdf" target="_blank"style={{color: "rgb(222, 240, 113)"}} download>Download Resume <i class ="fa fa-light fa-download" style={{color: "rgb(222, 240, 113)"}}></i></a>
+                <a className="Resume" href={pdf} style={{color: "rgb(222, 240, 113)"}} download>Download Resume <i class ="fa fa-light fa-download" style={{color: "rgb(222, 240, 113)"}}></i></a>
             </div>
             </div>
         </div>
