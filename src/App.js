@@ -6,7 +6,7 @@ import Projects from "./components/Projects";
 import Contact from "./components/Contact";
 import './App.css';
 import {HashRouter as Router, Routes, Route} from 'react-router-dom';
-import React, {useState} from 'react';
+import React, {useEffect, useState} from 'react';
 
 function App() {
   const [currently, setCurrently] = useState("playing ping pong 🏓");
@@ -16,7 +16,11 @@ function App() {
       setCurrently(() => tasks[i]);
   }
   var d = new Date();
-  window.onload = ()=>WhatAmIDoing(Math.ceil(d.getHours()/4));
+  // window.onpageshow = () => WhatAmIDoing(Math.ceil(d.getHours()/4));
+
+  useEffect(() => {
+    WhatAmIDoing(Math.ceil(d.getHours()/4))
+  }, [])
 
   return (
     <>
