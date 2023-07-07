@@ -16,7 +16,6 @@ function App() {
       setCurrently(() => tasks[i]);
   }
   var d = new Date();
-  // window.onpageshow = () => WhatAmIDoing(Math.ceil(d.getHours()/4));
 
   useEffect(() => {
     WhatAmIDoing(Math.ceil(d.getHours()/4))
