@@ -16,7 +16,7 @@ export default function About() {
     const blurb = [
         {index: 1, description: 'Rising junior studying computer science at the University of Notre Dame'},
         {index: 2, description: 'Interested in mobile development, game development, databases, and networking'},
-        {index: 3, description: 'Currently working at iCapital, a fintech company based in NYC, as a platform engineering intern'},
+        {index: 3, description: 'Currently working at iCapital, a fintech company based in NYC, as a software engineering intern'},
         {index: 4, description: 'Catan and LA Clippers enthusiast'},
         {index: 5, description: 'Enjoys playing ping pong, eating Vietnamese food, and exercising in free time'},
     ]
