@@ -1,16 +1,16 @@
 import React, { useRef } from 'react';
-import {Email} from './email';
 import emailjs from '@emailjs/browser';
 import './Contact.css';
 
 export const Contact = () => {
   const form = useRef();
+  const serviceId = process.env.REACT_APP_SERVICE_ID;
+  console.log(serviceId);
 
   const sendEmail = (e) => {
     e.preventDefault();
 
-    const email = new Email();
-    emailjs.sendForm(email.serviceID, email.templateID, form.current, email.publickey)
+    emailjs.sendForm(process.env.REACT_APP_SERVICE_ID, process.env.REACT_APP_TEMPLATE_ID, e.target, process.env.REACT_APP_PUBLIC_KEY)
       .then((result) => {
           alert("Email sent!");
           console.log(result.text);
