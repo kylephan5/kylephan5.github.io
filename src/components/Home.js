@@ -1,6 +1,6 @@
 import React from 'react';
 import picofme from './../images/picofme.jpg';
-import pdf from './../Kyle Phan Resume 2023.pdf';
+import pdf from '../Kyle Phan Resume.pdf';
 import './Home.css';
 
 export default function Home( {currently} ) {
