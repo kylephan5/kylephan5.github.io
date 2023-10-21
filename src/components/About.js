@@ -15,7 +15,7 @@ import django from './../skillicons/django.png';
 export default function About() {
     const blurb = [
         {index: 1, description: 'Junior studying computer science at the University of Notre Dame'},
-        {index: 2, description: 'Interested in systems, computer vision, databases, and backend development roles!'},
+        {index: 2, description: 'Interested in ML/AI, computer vision, databases, and backend development roles!'},
         {index: 3, description: 'Previous experience at iCapital, a fintech company based in NYC, as a software engineering intern'},
         {index: 4, description: 'Catan and LA Clippers enthusiast'},
         {index: 5, description: 'Enjoys playing ping pong, eating Vietnamese food, and exercising in free time'},
