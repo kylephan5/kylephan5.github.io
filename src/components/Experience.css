@@ -25,14 +25,16 @@
     border-radius: 50%;
 }
 
-.entries .icapital {
+.entries .icapital, .entries .gecko {
     width: 275px;
     height: 125px;
     border-radius: 0%;
 }
+
 .tag .vertical-timeline-element-content{
     border-top: 5px solid #C99700 !important;
 }
+
 .entries .bigdata {
     width: 250px;
     height: 125px;

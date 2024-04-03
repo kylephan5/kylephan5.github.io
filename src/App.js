@@ -12,7 +12,7 @@ function App() {
   const [currently, setCurrently] = useState("playing ping pong 🏓");
     
   function WhatAmIDoing(i) {
-      let tasks = ["resting for a good day tomorrow 🤓", "playing Catan 🎲", "stuffing my face with food 🍲", "watching the Clippers 🏀", "learning Swift 📱", "in NYC!!! 🏙️", "resting for a good day tomorrow 🤓"];
+      let tasks = ["resting for a good day tomorrow 🤓", "playing Catan 🎲", "stuffing my face with food 🍲", "watching the Clippers 🏀", "building fun Python scripts 🐍", "in Boston!!! 🏙️", "resting for a good day tomorrow 🤓"];
       setCurrently(() => tasks[i]);
   }
   var d = new Date();

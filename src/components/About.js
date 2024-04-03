@@ -14,11 +14,12 @@ import django from './../skillicons/django.png';
 
 export default function About() {
     const blurb = [
-        {index: 1, description: 'Junior studying computer science at the University of Notre Dame'},
+        {index: 1, description: 'Rising senior studying computer science at the University of Notre Dame'},
         {index: 2, description: 'Interested in ML/AI, computer vision, databases, and backend development roles!'},
-        {index: 3, description: 'Previous experience at iCapital, a fintech company based in NYC, as a software engineering intern'},
-        {index: 4, description: 'Catan and LA Clippers enthusiast'},
-        {index: 5, description: 'Enjoys playing ping pong, eating Vietnamese food, and exercising in free time'},
+        {index: 3, description: 'Incoming software engineering intern at Gecko Robotics in Boston!'},
+        {index: 4, description: 'Previous experience at iCapital, a fintech company based in NYC, as a software engineering intern'},
+        {index: 5, description: 'Catan and LA Clippers enthusiast'},
+        {index: 6, description: 'Enjoys playing ping pong, eating Vietnamese food, and exercising in free time'},
     ]
     const skills1 = [
         {name: 'React', img_src: react},

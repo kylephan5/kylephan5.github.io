@@ -1,22 +1,22 @@
 .about {
     height: 160vh;
     width: 100%;
-    background-color: #fff8e7;
+    /* background-color: #fff8e7; */
 }
 
 .abouttitle {
     padding-top: 50px;
     text-align: center;
     font-size: 250%;
-    color: #003e29;
+    color: rgb(222, 240, 113);
 }
 .about h3 {
-    color: #003e29;
+    color: rgb(222, 240, 113);
     opacity: 0;
     animation: fadein 2s ease-in forwards;
 }
 .about h2 {
-    color: #003e29;
+    color: rgb(222, 240, 113);
     opacity: 0;
     animation: fadein 2s ease-in forwards;
 }
@@ -47,7 +47,7 @@
     margin-top: 10px;
     font-size: 50%;
     text-align: center;
-    color: #003e29;
+    color: rgb(222, 240, 113);
 }
 
 .boxes {
